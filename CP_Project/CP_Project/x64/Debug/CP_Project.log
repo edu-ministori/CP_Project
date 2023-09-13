@@ -1,0 +1,34 @@
+﻿  Ch05-1_Example.cpp
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(9,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(9,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(9,14): message : see usage of 'Counter'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(13,9): warning C4552: '>>': result of expression not used
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(42,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(42,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(42,14): message : see usage of 'Counter'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(46,9): warning C4552: '>>': result of expression not used
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(53,25): warning C4552: '<<': result of expression not used
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(69,19): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(69,19): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(69,19): message : see usage of 'Counter'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(72,20): error C3863: array type 'int [Counter]' is not assignable
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(76,26): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(76,18): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(76,18): message : see usage of 'Counter'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(79,9): warning C4552: '>>': result of expression not used
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(83,14): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(83,14): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(83,14): message : see usage of 'Counter'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(86,14): error C3863: array type 'bool [Counter]' is not assignable
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch05-1_Example.cpp(95,18): error C3863: array type 'bool [Counter]' is not assignable
+  Ch05-2_Sort.cpp
+  Ch06-1_Example.cpp
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(30,13): error C2131: expression did not evaluate to a constant
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(30,13): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(30,13): message : see usage of 'AlphaSize'
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(33,14): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(42,20): error C3863: array type 'int [AlphaSize]' is not assignable
+C:\Users\user\CP_Project\CP_Project\CP_Project\CP_Project\Ch06-1_Example.cpp(50,22): warning C4552: '<<': result of expression not used
+  Ch06_String.cpp
+  CP_Project.cpp
+  Generating Code...
