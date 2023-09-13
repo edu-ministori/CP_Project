@@ -38,3 +38,4 @@ void IndexChar();
 void AlphaNumber();
 void Enum();
 void TwoDimension();
+void PointerDefine();

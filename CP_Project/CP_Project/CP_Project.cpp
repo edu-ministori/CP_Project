@@ -3,9 +3,14 @@
 
 #include <iostream>
 
+#include "CP_Project.h"
+#include "io.h"
+
 int main()
 {
     std::cout << "Hello World!\n";
+
+    PointerDefine();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

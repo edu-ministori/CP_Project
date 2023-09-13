@@ -138,6 +138,7 @@
     <ClCompile Include="Ch06-1_Example.cpp" />
     <ClCompile Include="Ch06_String.cpp" />
     <ClCompile Include="Ch07_Structure.cpp" />
+    <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="CP_Project.cpp" />
   </ItemGroup>
   <ItemGroup>
