@@ -10,7 +10,7 @@ int main()
 {
     std::cout << "Hello World!\n";
 
-    PointerDefine();
+    BallSwap();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -54,6 +54,12 @@
     <ClCompile Include="Ch08_Pointer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ch09_Dynamic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniProject_02.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CP_Project.h">
