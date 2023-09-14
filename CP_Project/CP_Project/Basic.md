@@ -120,4 +120,93 @@ parameter(형식매개변수) 와 arguement(실제매개변수)
 함수 호출 Function(10); <= 10 : argument
 
 
-클래스
+# 클래스
+
+- 객체 지향 프로그램의 대표적인 기법
+
+- 구조체로부터 업그레이된 기법
+  - 구조체 : 변수만으로 구성된 집합체
+  - 클래스 : 변수와 함수로 구성된 집합체
+
+- 객체지향 프로그래밍의 특징
+  - 추상화
+  - 캡슐화
+  - 정보 은닉
+  - 상속성
+  - 다형성
+
+- 클래스의 구성
+  - 변수 : 멤버 변수 / 프로퍼티
+  - 함수 : 멤버 함수 / 메소드
+
+- 클래스의 의미
+  - 클래스
+	- 설계도
+
+  - 객체 / 인스턴스
+	- 클래스를 통해서 생성된 실체
+
+### 선언
+
+#### 구조체 선언
+
+```
+struct Car
+{
+  char name[30];
+  char model[30];
+  int year;
+  int TireSize;
+  char Color[30];
+}
+
+void Drive(char name[30]){}
+void Break(char name[30]){}
+void Parking(char name[30]){}
+void Rear(char name[30]){}
+
+Car BMW = { "X7", "xDrive40i", 2023, 23, "Black" }
+
+Car Jeep = { "Rubicon", "Moutain", 2021, 26, "Blue" }
+
+cout << BMW.year << endl;
+
+cout << Jeep.year << endl;
+
+Drive("X7");
+
+Drive("Rubicon");
+```
+
+#### 클래스 선언
+
+```
+class Car
+{
+  char name[30];
+  char model[30];
+  int year;
+  int TireSize;
+  char Color[30];
+
+  void Drive(){}
+  void Break(){}
+  void Parking(){}
+  void Rear(){}
+}
+
+Car Sonata;
+cout << Sonata.year << endl;
+Sonata.Drive();
+
+Car Ray;
+cout << Ray.year << endl;
+Ray.Drive();
+```
+
+
+
+
+
+
+
