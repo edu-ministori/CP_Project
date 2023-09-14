@@ -6,11 +6,16 @@
 #include "CP_Project.h"
 #include "io.h"
 
+#include "Ch10_Class.h"
+
 int main()
 {
     std::cout << "Hello World!\n";
 
-    BallSwap();
+    Car Sonata(80);
+
+    Sonata.DriveVelocity();
+    Sonata.DriveTime();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

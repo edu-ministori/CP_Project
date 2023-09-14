@@ -140,10 +140,12 @@
     <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CP_Project.cpp" />
     <ClCompile Include="MiniProject_02.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="CP_Project.h" />
     <ClInclude Include="io.h" />
   </ItemGroup>

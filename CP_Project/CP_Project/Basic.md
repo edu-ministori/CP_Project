@@ -153,25 +153,25 @@ parameter(형식매개변수) 와 arguement(실제매개변수)
 ```
 struct Car
 {
-  char name[30];
-  char model[30];
-  int year;
+  char Name[30];
+  char Model[30];
+  int Year;
   int TireSize;
   char Color[30];
 }
 
-void Drive(char name[30]){}
-void Break(char name[30]){}
-void Parking(char name[30]){}
-void Rear(char name[30]){}
+void Drive(char Name[30]){}
+void Break(char Name[30]){}
+void Parking(char Name[30]){}
+void Rear(char Name[30]){}
 
 Car BMW = { "X7", "xDrive40i", 2023, 23, "Black" }
 
 Car Jeep = { "Rubicon", "Moutain", 2021, 26, "Blue" }
 
-cout << BMW.year << endl;
+cout << BMW.Year << endl;
 
-cout << Jeep.year << endl;
+cout << Jeep.Year << endl;
 
 Drive("X7");
 
@@ -183,9 +183,9 @@ Drive("Rubicon");
 ```
 class Car
 {
-  char name[30];
-  char model[30];
-  int year;
+  char Name[30];
+  char Model[30];
+  int Year;
   int TireSize;
   char Color[30];
 
@@ -196,16 +196,28 @@ class Car
 }
 
 Car Sonata;
-cout << Sonata.year << endl;
+cout << Sonata.Year << endl;
 Sonata.Drive();
 
 Car Ray;
-cout << Ray.year << endl;
+cout << Ray.Year << endl;
 Ray.Drive();
 ```
 
+## 생성자(Constructor)와 소멸자(Destructor)
 
 
+### 생성자
+
+  - 클래스 타입의 변수가 생성될 때 초기화하는 함수
+  
+  - 초기화 기능 / 초기화가 진행된 후 연계해서 다른 기능 동작
+
+### 소멸자
+
+  - 클래스 쓰임새가 다했거나 프로그램 종료시 생성되었던 클래스를 해제하는 함수
+
+  - 소멸 기능 / 클래스 소멸이 진행된 후 연계해서 다른 기능 동작
 
 
 
