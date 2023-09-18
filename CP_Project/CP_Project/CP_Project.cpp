@@ -7,15 +7,28 @@
 #include "io.h"
 
 #include "Ch10_Class.h"
+#include "Vehicle.h"
+#include "Animal.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
-    Car Sonata(80);
+    // class 정적 선언
+    Vehicle Ray(2023, 12000000);
+    Ray.PrintPrice();
 
-    Sonata.DriveVelocity();
-    Sonata.DriveTime();
+    Ray.Price = 10000000;
+    Ray.PrintPrice();
+
+    Ray.SetYear(2021);
+    
+    cout << Ray.GetYear() << endl;
+
+    // class 동적 선언(생성)
+    Animal* Dog = new Animal;
+    Dog->PrintFinger();
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
