@@ -29,6 +29,9 @@ int main()
     
     cout << Ray.GetYear() << endl;
 
+    Vehicle Sonata;
+
+
     // class 동적 선언(생성)
     Animal* Dog = new Animal;
     Dog->PrintFinger();
@@ -59,9 +62,12 @@ int main()
 
     // 생성자가 명시적으로 선언
     // 자식 클래스 선언 : 명시적 선언
-    //Auto Mobile();
 
-    //Mobile().PrintPrice();
+    cout << "-----------------------------" << endl;
+    Auto Mobile;
+
+    Auto Avante(2024, 10000000);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

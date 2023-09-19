@@ -130,6 +130,7 @@
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Arithmatic.cpp" />
     <ClCompile Include="Atv.cpp" />
+    <ClCompile Include="Auto.cpp" />
     <ClCompile Include="Bike.cpp" />
     <ClCompile Include="Ch01_Variable.cpp" />
     <ClCompile Include="Ch02_Operation.cpp" />
