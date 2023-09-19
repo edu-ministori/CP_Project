@@ -68,6 +68,15 @@ int main()
 
     Auto Avante(2024, 10000000);
 
+
+    cout << "-----------------------------" << endl;
+    //ArrayClass();
+
+    //StringClass();
+
+    VectorClass();
+
+    cout << "-----------------------------" << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -145,6 +145,9 @@
     <ClCompile Include="Ch07_Structure.cpp" />
     <ClCompile Include="Ch08_Pointer.cpp" />
     <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch11_ArrayClass.cpp" />
+    <ClCompile Include="Ch12_StringClass.cpp" />
+    <ClCompile Include="Ch13_Vector.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CP_Project.cpp" />
