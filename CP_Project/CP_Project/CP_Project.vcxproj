@@ -150,6 +150,7 @@
     <ClCompile Include="Ch13_Vector.cpp" />
     <ClCompile Include="Ch14_VirtualChild.cpp" />
     <ClCompile Include="Ch14_VirtualParent.cpp" />
+    <ClCompile Include="Ch15_PureVirtualChild.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CP_Project.cpp" />
@@ -164,6 +165,8 @@
     <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="Ch14_VirtualChild.h" />
     <ClInclude Include="Ch14_VirtualParent.h" />
+    <ClInclude Include="Ch15_PureVirtualChild.h" />
+    <ClInclude Include="Ch15_PureVirtualParent.h" />
     <ClInclude Include="CP_Project.h" />
     <ClInclude Include="io.h" />
     <ClInclude Include="Vehicle.h" />
