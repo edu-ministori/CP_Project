@@ -13,6 +13,8 @@
 #include "Atv.h"
 #include "Arithmatic.h"
 #include "Auto.h"
+#include "Ch14_VirtualChild.h"
+#include "Ch14_VirtualParent.h"
 
 int main()
 {
@@ -74,9 +76,33 @@ int main()
 
     //StringClass();
 
-    VectorClass();
+    //VectorClass();
 
     cout << "-----------------------------" << endl;
+
+    VirtualParent* Parent = new VirtualParent;
+    VirtualChild* Child = new VirtualChild;
+
+    Parent->PrintClass();
+
+    Child->PrintClass(); // Overriding 작동
+
+    Parent = Child;
+
+    Parent->PrintClass();
+
+    VirtualParent2* Parent2 = new VirtualParent2;
+    VirtualChild2* Child2 = new VirtualChild2;
+
+    Parent2->PrintClass();
+
+    Child2->PrintClass(); // Overriding 작동
+
+    Parent2 = Child2;
+
+    Parent2->PrintClass();
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
