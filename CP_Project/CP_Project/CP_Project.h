@@ -55,3 +55,5 @@ T SumType(T a, T b)
 {
 	return (a + b);
 }
+
+void Dice();
