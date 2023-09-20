@@ -9,6 +9,12 @@ Animal::Animal()
 	Leg = 2;
 }
 
+Animal::Animal(int _Finger, int _Leg)
+{
+	this->Finger = _Finger;
+	this->Leg = _Leg;
+}
+
 void Animal::PrintFinger()
 {
 	cout << Finger << endl;

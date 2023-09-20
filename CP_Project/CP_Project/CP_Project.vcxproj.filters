@@ -99,6 +99,12 @@
     <ClCompile Include="Ch15_PureVirtualChild.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Ch16_Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Practice06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CP_Project.h">
