@@ -45,7 +45,7 @@ int main()
     delete Dog;
     */
     // 자식 클래스 생성
-    Atv Moto;
+    //Atv Moto;
 
     // 상속받은 Bike class의 멤버
     /*
@@ -53,7 +53,7 @@ int main()
     cout << Moto.Price << endl;
     */
     // Atv class 멤버
-    Moto.PrintPrice();
+    //Moto.PrintPrice();
 
     // 함수 오버로딩
     /*
@@ -66,7 +66,7 @@ int main()
     Expression.Sum(60, 70);
     */
     // 함수 오버라이딩
-    Moto.Print();
+    //Moto.Print();
 
     // 생성자가 명시적으로 선언
     // 자식 클래스 선언 : 명시적 선언
@@ -85,7 +85,7 @@ int main()
     //VectorClass();
 
     cout << "-----------------------------" << endl;
-
+    /*
     VirtualParent* Parent = new VirtualParent;
     VirtualChild* Child = new VirtualChild;
 
@@ -124,6 +124,13 @@ int main()
 
     cout << SumType(10, 20) << endl;
     cout << SumType(10.567, 20.321) << endl;
+    */
+
+    Dice(2, 2, 2, 2);
+    Dice(4, 1, 4, 4);
+    Dice(6, 3, 3, 6);
+    Dice(2, 5, 2, 6);
+    Dice(6, 4, 2, 5);
 
 }
 
